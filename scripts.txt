@@ -1,0 +1,20 @@
+
+--script to install all the dependencies(Neccessary)
+pip install -r requirements.txt
+
+--script to data preparation(Neccessary)
+python dataPreparation.py
+
+--script to load the model(Neccessary)
+runipy load_model.ipynb
+or
+jupyter nbconvert --to notebook --execute load_model.ipynb 
+
+--script to train the model (Neccessary)
+first run:
+python train_model.py
+and then run:
+python Tensorflow\models\research\object_detection\model_main_tf2.py --model_dir=Tensorflow\workspace\models\my_ssd_mobnet --pipeline_config_path=Tensorflow\workspace\models\my_ssd_mobnet\pipeline.config --num_train_steps=12000
+
+--script to evaluate the model(neccessary)
+python validation.py

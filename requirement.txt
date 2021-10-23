@@ -1,0 +1,35 @@
+# for ipynb script-------------------------------------
+jupyter
+
+# for python script-------------------------------------
+spyder
+
+# for data conversions and storage purpose-------------------------------------
+pandas
+numpy
+
+# for deeplearning neural networks-------------------------------------
+tensorflow
+tensorflow_gpu
+keras
+
+# for dictionary to JSON-------------------------------------
+json
+ 
+# for downloading content from the url-------------------------------------
+wget
+
+# for git purpose-------------------------------------
+gitpython
+
+# for computer vision to read imahges from the directory-------------------------------------
+opencv-python
+
+# for graphs-------------------------------------
+matplotlib
+
+# for file movements-------------------------------------
+shutil
+
+# for path purpose-------------------------------------
+pathlib
